@@ -28,7 +28,11 @@ The primary goal of this project is to classify movies into multiple genres by a
 
 ## 🚀 Dataset
 
-The dataset used for this project consists of movie subtitle files in `.srt` format. You can access the dataset using the following link:
+The dataset used for this project contains detailed information about movies, including their titles, subtitles, and genre labels. The data is organized in a tabular format with the following columns:
+
+Title: The movie's title, including its release year.
+Subtitle: A conversation of movie
+Genres: Binary indicators (1 or 0) for each genre, such as Action, Comedy, Drama, etc., representing whether the movie belongs to a specific genre. You can access the dataset using the following link:
 
 [Download Dataset](https://drive.google.com/file/d/10IH9FhKDpr_AELmlb0Fa9vzieYnU3jZV/view?usp=drivesdk)
 
