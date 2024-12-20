@@ -1,10 +1,65 @@
-MOVIE GENERE PREDICTION
-OVERVIEW :- This project explores the prediction of movie genres from subtitle scripts using deep learning techniques, specifically leveraging Long Short-Term Memory (LSTM) networks for multi-label classification. The project utilizes movie subtitle data in the \texttt{.srt} format, with text preprocessing steps including tokenization, stopword removal, and sequence padding. Feature extraction is performed using Keras's \texttt{Tokenizer} for converting the text into integer sequences, followed by multi-label binarization of genre labels. The model is trained using a combination of LSTM layers and dense layers, resulting in genre predictions that account for multiple genres simultaneously. The performance of the model is evaluated on a dataset of movie subtitles, achieving accurate and reliable genre predictions. The findings suggest that LSTM-based models are well-suited for subtitle-based genre prediction, and the paper concludes with suggestions for future improvements, such as experimenting with additional deep learning architectures and incorporating more sophisticated feature extraction methods.
-[DATASET]([URL](https://drive.google.com/file/d/10IH9FhKDpr_AELmlb0Fa9vzieYnU3jZV/view?usp=drivesdk)
+# Movie Genre Prediction
 
-## Team Members
+This project explores the prediction of movie genres from subtitle scripts using deep learning techniques, specifically leveraging **Long Short-Term Memory (LSTM)** networks for multi-label classification.
 
-- **Amon Sharma** - Roll No: 202251015
-- **Garv Arora** - Roll No: 202251048
-- **Arnav Gupta** - Roll No: 202251023
-- **Om Kumar** - Roll No: 202251081
+---
+
+## 📚 Overview
+
+The primary goal of this project is to classify movies into multiple genres by analyzing their subtitles. The project involves the following key steps:
+
+- **Data Format**: Subtitles in `.srt` format.
+- **Text Preprocessing**: Tokenization, stopword removal, and sequence padding.
+- **Feature Extraction**: Using Keras's `Tokenizer` to convert text into integer sequences, followed by multi-label binarization of genre labels.
+- **Model Architecture**: 
+  - LSTM layers for sequence modeling.
+  - Dense layers for multi-label classification.
+- **Evaluation**: The model's performance is evaluated on a dataset of movie subtitles, achieving accurate and reliable multi-label genre predictions.
+
+---
+
+## 🧪 Key Features
+
+1. **Multi-Label Classification**: Predicts multiple genres for a single movie.
+2. **Deep Learning Architecture**: Uses LSTM layers for effective sequence analysis.
+3. **Text Preprocessing**: Efficiently handles noisy text data from subtitles.
+
+---
+
+## 🚀 Dataset
+
+The dataset used for this project consists of movie subtitle files in `.srt` format. You can access the dataset using the following link:
+
+[Download Dataset](https://drive.google.com/file/d/10IH9FhKDpr_AELmlb0Fa9vzieYnU3jZV/view?usp=drivesdk)
+
+---
+
+## ⚙️ Future Improvements
+
+- Experiment with additional deep learning architectures such as Transformers.
+- Incorporate more sophisticated feature extraction techniques (e.g., Word2Vec, BERT).
+- Extend the dataset to include more diverse subtitle sources.
+
+---
+
+## 👥 Team Members
+
+- **Amon Sharma** - Roll No: 202251015  
+- **Garv Arora** - Roll No: 202251048  
+- **Arnav Gupta** - Roll No: 202251023  
+- **Om Kumar** - Roll No: 202251081  
+
+---
+
+## 🛠️ Tools and Technologies
+
+- **Programming Language**: Python
+- **Libraries**:  Keras, NumPy, Pandas, Scikit-learn
+- **Data Format**: `.srt` files
+
+---
+
+## 📝 Citation
+
+If you use this work, please consider citing the project.  
+Feel free to explore, use, and suggest improvements to this repository!
